@@ -1,0 +1,50 @@
+module.exports = {
+  plugins: [
+    require('autoprefixer'),
+    require('postcss-preset-env')({
+      stage: 3,
+      features: {
+        'nesting-rules': true,
+        'custom-properties': false,
+        'custom-media-queries': true,
+        'custom-selectors': true,
+        'color-function': true,
+        'color-mod-function': true,
+        'media-query-ranges': true,
+        'custom-media-queries': true,
+        'nesting-rules': true,
+        'all-property': true,
+        'any-link-pseudo-class': true,
+        'blank-pseudo-class': true,
+        'color-function': true,
+        'color-hex-alpha': true,
+        'color-mod-function': true,
+        'color-rebeccapurple': true,
+        'color-rgb': true,
+        'color-rgba': true,
+        'dir-pseudo-class': true,
+        'double-position-gradients': true,
+        'focus-visible-pseudo-class': true,
+        'focus-within-pseudo-class': true,
+        'font-variant-property': true,
+        'gap-properties': true,
+        'gray-function': true,
+        'has-pseudo-class': true,
+        'hex-color-alpha': true,
+        'hwb-function': true,
+        'image-set-function': true,
+        'lab-function': true,
+        'lch-function': true,
+        'logical-properties-and-values': true,
+        'media-query-ranges': true,
+        'nesting-rules': true,
+        'oklab-function': true,
+        'oklch-function': true,
+        'pseudo-class-any-link': true,
+        'rebeccapurple-color': true,
+        'rgb-function': true,
+        'system-ui-font-family': true
+      }
+    })
+  ]
+}; 

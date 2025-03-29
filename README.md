@@ -1,13 +1,144 @@
-# Fameve Cloud
+A modern, responsive web template with advanced features and optimizations.
 
-A landing page template.
+## About
 
-* [Getting started](#getting-started)
+April is a cutting-edge web template that combines modern design principles with powerful features. Built with performance and developer experience in mind, it offers:
 
-## Getting started
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* This template requires Node 14 to work. You can handle multiple node versions with [NVM](https://github.com/nvm-sh/nvm) 
-* Next, use your command line to enter your project directory.
-* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
+- 🎨 Modern and responsive design
+- ⚡ Fast build system with esbuild
+- 🎭 Beautiful animations and transitions
+- 📱 Mobile-first approach
+- 🔍 SEO optimized
+- ♿ Accessibility focused
+- 🧪 Comprehensive testing setup
+- 🎯 Performance optimized
+- 🔒 Security best practices
+- 📦 Modern development workflow
 
-You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
+## Features
+
+- 🎨 Modern and responsive design
+- ⚡ Fast build system with esbuild
+- 🎭 Beautiful animations and transitions
+- 📱 Mobile-first approach
+- 🔍 SEO optimized
+- ♿ Accessibility focused
+- 🧪 Comprehensive testing setup
+- 🎯 Performance optimized
+- 🔒 Security best practices
+- 📦 Modern development workflow
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://bitbucket.org/psenjenkevin/april.git
+cd april
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+## Development
+
+Start the development server:
+```bash
+npm run watch
+```
+
+This will:
+- Start a development server with live reload
+- Watch for changes in SCSS, JavaScript, and images
+- Automatically rebuild and refresh when changes are detected
+
+## Building for Production
+
+Build the project for production:
+```bash
+npm run build
+```
+
+This will:
+- Minify and optimize all assets
+- Generate source maps
+- Optimize images
+- Create production-ready files in the `dist` directory
+
+## Testing
+
+Run tests:
+```bash
+npm test
+```
+
+Run tests in watch mode:
+```bash
+npm run test:watch
+```
+
+## Code Quality
+
+The project uses several tools to maintain code quality:
+
+- ESLint for JavaScript linting
+- Stylelint for SCSS linting
+- Prettier for code formatting
+- Jest for testing
+- Husky for git hooks
+- lint-staged for pre-commit checks
+
+### Linting
+
+Lint JavaScript:
+```bash
+npm run lint
+```
+
+Lint SCSS:
+```bash
+npm run lint-scss
+```
+
+### Formatting
+
+Format all files:
+```bash
+npm run format
+```
+
+Check formatting:
+```bash
+npm run format:check
+```
+
+## Project Structure
+
+```
+april/
+├── src/
+│   ├── js/          # JavaScript source files
+│   ├── scss/        # SCSS source files
+│   └── images/      # Image assets
+├── dist/            # Built files
+├── __mocks__/       # Jest mocks
+└── tests/           # Test files
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details. 
